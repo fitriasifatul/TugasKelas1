@@ -14,5 +14,7 @@ public interface LinearList {
     public void trimToSize();
     public Object setSize(int no);
     public Object clear();
+    public Object removeRange(int i, int l);
+    
     
 }

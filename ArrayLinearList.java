@@ -143,4 +143,15 @@ public class ArrayLinearList implements LinearList {
         }
         return size;
     }
+    //i= awal angka yang mau dihapus, l akhir angka yang ingin dihapus
+    @Override
+    public Object removeRange(int i, int l){
+        for(int a = i; a < l; a++){
+            remove(a);
+        }
+        return element;
+    }
+    
+    
 }
+ 
